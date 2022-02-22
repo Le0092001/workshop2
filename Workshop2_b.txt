@@ -1,0 +1,30 @@
+5f37 instance
+
+nucamp-private-key2
+
+Public IPv4 DNS
+ec2-54-167-2-16.compute-1.amazonaws.com
+
+Elastic IP addresses
+18.208.44.221
+
+418568295007.dkr.ecr.us-east-1.amazonaws.com
+
+URI
+418568295007.dkr.ecr.us-east-1.amazonaws.com/django_docker_aws
+
+github
+https://github.com/Le0092001/django_docker_aws.git
+
+push command
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 418568295007.dkr.ecr.us-east-1.amazonaws.com
+
+Workshop2 URI
+418568295007.dkr.ecr.us-east-1.amazonaws.com/workshop2
+
+DB
+
+Endpoint
+nctutorials.cc1rnzs1sdci.us-east-1.rds.amazonaws.com
+Port
+5432
